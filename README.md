@@ -1,4 +1,4 @@
-# Terrafrom-AWS-HTTPD
+# Terraform-AWS-HTTPD
 This project is used to install and configure httpd server in AWS-cloud  
 ---
 -  Define your variables in --> variables.tf 
