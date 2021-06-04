@@ -11,3 +11,9 @@ resource "aws_key_pair" "key" {
 output "mykey"{
   value = aws_key_pair.key.key_pair_id
 }
+
+###This is used to store private key in a file
+/*resource "local_file" "private_key" {
+    content  = aws_key_pair.key.key_pair_id
+    filename = "private_key.pem"
+}*/
